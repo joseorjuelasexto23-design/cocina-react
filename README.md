@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pantalla de cocina en tiempo real — React + SSE
 
 Interfaz de cocina para restaurante, pensada para un Smart TV: los pedidos aparecen solos cuando el mesero los envía y desaparecen cuando se recogen, sin que nadie toque la pantalla.
@@ -110,3 +111,7 @@ Sin librerías de estado ni de fetching: es una sola vista con una sola fuente d
 
 **José Andrés Orjuela Montero** — Ingeniería de Sistemas, UNIMINUTO (Soacha).
 Parte de un sistema POS en producción en un negocio real.
+=======
+# cocina-react
+gestion de cocina con React JS
+>>>>>>> b91975b4acf6a17e14d8ced7284033717505adeb
