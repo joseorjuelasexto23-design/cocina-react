@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-carbon text-stone-100 antialiased;
+    /* La pantalla vive en un TV: nadie va a seleccionar texto,
+       y el cursor sobra si el equipo tiene mouse conectado. */
+    user-select: none;
+    cursor: none;
+  }
+
+  /* Respeta a quien tenga reducción de movimiento activada */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
