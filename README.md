@@ -5,7 +5,7 @@ Interfaz de cocina para restaurante, pensada para un Smart TV: los pedidos apare
 
 Es la reimplementación en **React** de una pantalla que ya opera en un negocio real, consumiendo el mismo backend PHP mediante **Server-Sent Events**.
 
-> Backend del sistema completo: [las-acacias-pos](https://github.com/USUARIO/las-acacias-pos)
+> Backend del sistema completo: [las-acacias-pos](https://github.com/joseorjuelasexto23-design/las-acacias-pos)
 
 ---
 
